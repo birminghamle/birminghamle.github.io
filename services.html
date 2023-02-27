@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="C:\Users\Lathan\websites\birminghamle.github.io\w3.css">
+<link rel="stylesheet" href="C:\Users\Lathan\websites\birminghamle.github.io\w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Navigation -->
+
+<div class="w3-bar w3-theme">
+  <a href="C:\Users\Lathan\websites\birminghamle.github.io\index.html" class="w3-bar-item w3-button w3-padding-16">Home</a>
+  <a href="C:\Users\Lathan\websites\birminghamle.github.io\about.html" class="w3-bar-item w3-button w3-padding-16">About Me</a>
+  <a href="C:\Users\Lathan\websites\birminghamle.github.io\education.html" class="w3-bar-item w3-button w3-padding-16 w3-dark-grey">Education</a>
+  <a href="C:\Users\Lathan\websites\birminghamle.github.io\experience.html" class="w3-bar-item w3-button w3-padding-16">Certifications, Experience and Achievements</a>
+  <a href="C:\Users\Lathan\websites\birminghamle.github.io\services.html" class="w3-bar-item w3-button w3-padding-16">Document Services</a>
+  <a href="C:\Users\Lathan\websites\birminghamle.github.io\Documents\Final Resume.pdf" class="w3-bar-item w3-button w3-padding-16">My Resume</a>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader"> 
+  <div class="w3-center">
+  <h1 class="w3-xxxlarge w3-animate-bottom">Lathan Birmingham</h1>
+  <h4>Cybersecurity Student, Document Services Professional, Junior Website Developer</h4>
+    <div class="w3-padding-32">
+      <button class="w3-btn w3-xlarge w3-red w3-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">Submit a Document Service Request</button>
+    </div>
+  </div>
+</header>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-theme-l1"> 
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">×</span>
+        <h4>Thank you for choosing me to take care of your document services.</h4>
+        <h5>Requests without an urgent deadline will be processed at a rate of $20 an hour. I am available 24/7 for urgent document services processed at a rate of $25 an hour. Urgent requests will be booked in for processing within in 1 hour of submission and will have a prioritized deadline according to your needs.</h5>
+      </header>
+      <div class="w3-padding">
+        <h2>Submit a Request</h2>
+        <div class="w3-half">
+          <input id="milk" class="w3-check" type="checkbox">
+          <label>Urgent Request</label>
+        </div>
+        <div class="w3-section">      
+          <input class="w3-input" type="text" required>
+          <label>Name</label>
+        </div>
+        <div class="w3-section">      
+          <input class="w3-input" type="text" required>
+          <label>Email</label>
+        </div>
+        <div class="w3-section">      
+          <input class="w3-input" type="text" required>
+          <label>Phone</label>
+        </div>
+        <div class="w3-section">      
+          <input class="w3-input" type="text" required>
+          <label>Describe your Request</label>
+        </div>
+        <div class="w3-section">      
+          <input class="w3-input" type="text" required>
+          <label>Estimated Deadline</label>
+        </div>
+        <a class="w3-button w3-theme">Submit Request</a>
+      </div>
+      <footer class="w3-container w3-theme-l1">
+        <p>Copyright © 2022 | Lathan Birmingham</p>
+      </footer>
+    </div>
+</div>
+<br>
+
+<div class="w3-container">
+  <p class="w3-left w3-padding">I have extensive experience both professionally and academically with the Microsoft Office Suite. I am capable of leading and handling even the most advanced projects using the Microsoft Suite. Learn more about my specific skillset by selecting a program below. I have also provided sample files that showcase my capabilities. Each project was built from scratch by me, but may include imported content/data for filler information. To clarify, the content in the files were not written by me but instead imported from the cited reference.<br><br><b>If you would like to submit a document service request, please use the red button above and I will get back to you within 1 day.</b></p>
+  <div class="w3-border">
+  <div class="w3-bar w3-theme">
+    <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openTab(event,'Word')">Microsoft Word</button>
+    <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openTab(event,'Excel')">Microsoft Excel</button>
+    <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openTab(event,'PowerPoint')">Microsoft PowerPoint</button>
+  </div>
+  
+  <div id="Word" class="w3-container tab w3-animate-opacity">
+    <h2>Microsoft Word</h2>
+    <p>Description</p>
+  </div>
+  
+  <div id="Excel" class="w3-container tab w3-animate-opacity">
+    <h2>Microsoft Excel</h2>
+    <p>Description</p> 
+  </div>
+  
+  <div id="PowerPoint" class="w3-container tab w3-animate-opacity">
+    <h2>Microsoft PowerPoint</h2>
+    <p>Description</p>
+  </div>
+  </div>
+  <hr>
+
+<!-- Footer -->
+<footer class="w3-container w3-theme-dark w3-padding-16">
+  <h4>Check me out on <a href="https://www.linkedin.com/in/lathan-birmingham" target="_blank">LinkedIn</a></h4>
+  <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-theme-light w3-padding">Go To Top</span>    
+    <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+  <p>Copyright © 2023 | Lathan Birmingham</p>
+</footer>
+</body>
+</html>
+
+<!-- Script for Tabs -->
+<script>
+function openTab(evt, tabName) {
+  var i;
+  var x = document.getElementsByClassName("tab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  var activebtn = document.getElementsByClassName("testbtn");
+  for (i = 0; i < x.length; i++) {
+    activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " w3-dark-grey";
+}
+
+var mybtn = document.getElementsByClassName("testbtn")[0];
+mybtn.click()
+</script>
